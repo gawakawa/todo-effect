@@ -3,7 +3,7 @@ import { lazy, Suspense } from 'react';
 import reactLogo from './assets/react.svg';
 
 // Works also with SSR as expected
-const Card = lazy(() => import('./Card'));
+const Card = lazy(() => import('./Card.tsx'));
 
 function App() {
 	return (

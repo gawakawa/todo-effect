@@ -1,4 +1,9 @@
 {
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"jsxImportSource": "npm:react",
+		"lib": ["deno.window", "dom"]
+	},
 	"fmt": {
 		"useTabs": true,
 		"lineWidth": 80,

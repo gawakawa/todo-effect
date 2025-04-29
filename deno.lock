@@ -914,6 +914,9 @@
     }
   },
   "workspace": {
+    "dependencies": [
+      "npm:react@*"
+    ],
     "packageJson": {
       "dependencies": [
         "npm:@types/express@5",
