@@ -50,5 +50,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: 'todo-effect'
-          entrypoint: 'main.ts'
+          entrypoint: 'server.js'
           root: '.'
